@@ -1,0 +1,14 @@
+/* To display table row values dyanmically based on table headers in Aurelia . */
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+      <th repeat.for="header of TableHeaders">${header}</th>
+      </tr>
+    </thead>
+      <tbody>
+          <tr repeat.for="data of tableRowData">
+          <td repeat.for="header of TableHeaders">${tableRowData[$index][header]}</td>
+          </tr> 
+      </tbody>
+    </table>
