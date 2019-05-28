@@ -1,4 +1,5 @@
-/* To display table row values dyanmically based on table headers in Aurelia . */
+
+/* To display table row values dynamically based on table headers in Aurelia . */
 
   <table class="table table-striped">
     <thead>
